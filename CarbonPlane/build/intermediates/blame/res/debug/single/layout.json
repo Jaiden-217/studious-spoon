@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\gatt_services_characteristics.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\gatt_services_characteristics.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\param_setting.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\param_setting.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_indeterminate_progress.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\actionbar_indeterminate_progress.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\activity_controller.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\activity_controller.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\listitem_device.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\listitem_device.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\alert.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\alert.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_guide.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\dialog_guide.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\page_one.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\page_one.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\trim_xml.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\trim_xml.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\com_progressbar.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\com_progressbar.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\page_two.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\page_two.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_http_waitting.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\dialog_http_waitting.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guide.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\activity_guide.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\page_three.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\page_three.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\param_settings_xml.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\param_settings_xml.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\layout\\activity_base.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\layout\\activity_base.xml"
+    }
+]

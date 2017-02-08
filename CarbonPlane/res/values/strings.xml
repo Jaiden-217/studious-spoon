@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Num.2</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+    <string name="btn_close">"关闭"</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="search_device">搜索设备</string>
+    <string name="search_device_yes">已搜索到匹配设备</string>
+    <string name="search_device_no">未搜索到匹配设备</string>
+    <string name="searching_device">正在搜索设备…, &#8230;</string>
+    <string name="search_again">重新搜索</string>
+    <string name="link">连接设备</string>
+    <string name="linking">正在连接…, &#8230;</string>
+    <string name="tip">提示</string>
+    <string name="lowPower">对不起，电量过低</string>
+    <string name="yes">确定</string>
+    <string name="bluetooth_disconnect">蓝牙已断开，请重新连接</string>
+    <string name="unsupport_device">该设备不支持重力传感器</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="enter">开始飞行</string>
+    <string name="sentence_1">带着眼睛去旅行</string>
+    <string name="text_splash1">云顶智能</string>
+    <string name="text_splash2">"@2015 Airtops Inc."</string>
+    <string name="tip_guide">向上推动滑竿，给飞机加速</string>
+    <string name="btn_know">知道了</string>
+    <string name="alt_message">您当前飞行总时长为：</string>
+    <string name="alt_title">飞行时长</string>
+    <string name="nothing">nothing</string>
+    <string name="press_power">请先按电源键</string>
+    <string name="stop_video_mode">请先关闭摄像模式</string>
+    
+    <string name="bluetooth_des">bluetooth icon</string>
+    <string name="power_des">power icon</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="cancel">取消</string>
+    <string name="change">CHANGE</string>
+    <string name="debug_off">DEBUG: OFF</string>
+    <string name="debug_on">DEBUG: ON</string>
+    <string name="acce_tv">0 %</string>
+    <string name="direc_tv">方向：0</string>
+    <string name="trim">Trim: 0</string>
+    <string name="left_trim">LEFT TRIM</string>
+    <string name="right_trim">RIGHT TRIM</string>
+    <string name="go_strait">GO STRAIT</string>
+
+    <string name="raw1">r_1</string>
+    <string name="raw2">r_2</string>
+    <string name="raw3">r_3</string>
+    <string name="pitch1">p_1</string>
+    <string name="pitch2">p_2</string>
+    <string name="pitch3">p_3</string>
+    <string name="yaw1">y_1</string>
+    <string name="yaw2">y_2</string>
+    <string name="yaw3">y_3</string>
+
+    <string name="current_speed">%1$d%%</string>
+    <string name="current_trim">Trim: %1$d</string>
+    <string name="default_params">1500</string>
+
+</resources>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_carbon_plane.png",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable-xhdpi\\ic_carbon_plane.png"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\app_icon.png",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\app_icon_white.png",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable-xhdpi\\app_icon_white.png"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\bluetooth.png",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable-xhdpi\\bluetooth.png"
+    }
+]

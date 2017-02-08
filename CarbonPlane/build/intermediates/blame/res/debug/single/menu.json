@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\menu\\menu_base.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\menu\\menu_base.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\menu\\menu_test.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\menu\\menu_test.xml"
+    }
+]

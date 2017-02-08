@@ -1,0 +1,361 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/carbon_back"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/surfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="150dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@anim/surface"
+        android:contentDescription="@string/nothing" />
+
+    <RelativeLayout
+		android:id="@+id/centerPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/powerArea" >
+        <RelativeLayout 
+            android:id="@+id/videoLayout"
+            android:visibility="gone"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp">
+        <ImageView 
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:id="@+id/video_dot"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/dot_take_video"/>
+        
+        <Chronometer 
+            android:layout_centerVertical="true"
+            android:id="@+id/video_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format="%s"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_marginStart="20dp"/>
+	</RelativeLayout>
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/acceTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/acce_tv"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+            <com.airtops.carbon.plane.view.AcceView
+                android:id="@+id/accePro"
+                android:layout_width="26dp"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:background="@android:color/transparent"
+                android:rotation="180" />
+			<RelativeLayout 
+			    android:layout_width="wrap_content"
+			    android:layout_height="0dp"
+			    android:layout_weight="2">
+			    <FrameLayout 
+			       android:layout_alignParentEnd="true"
+			        android:layout_marginTop="5dp"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:orientation="vertical" >
+			   	  <ImageView
+			   	    android:id="@+id/f_h_l"
+			   	    android:layout_marginStart="4.5dp"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:src="@drawable/flyer_height_l"
+                	android:contentDescription="@null" />
+			   	  <ImageView
+			   	      android:layout_gravity="bottom"
+			   	      android:layout_marginBottom="-2dp"
+			   	      android:contentDescription="@null" 
+			   	      android:id="@+id/f_h_i"
+			   	      android:layout_width="wrap_content"
+			   	      android:layout_height="wrap_content"
+			   	      android:src="@drawable/flyer_height_icon"/>
+			   	  </FrameLayout>
+			</RelativeLayout>
+            
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/planeLayout"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="-80dp"
+			android:layout_above="@+id/centerView">
+
+            <ImageView
+                android:id="@+id/imgPlane"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:contentDescription="@string/nothing"
+                android:src="@drawable/img_plane" />
+            
+            <ImageView
+                android:id="@+id/imgPlaneUp"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="35dp"
+                android:contentDescription="@string/nothing"
+                android:src="@drawable/acce_up" />
+            
+            <ImageView
+                android:id="@+id/imgPlaneDown"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="-20dp"
+                android:contentDescription="@string/nothing"
+                android:src="@drawable/acce_down" />
+
+            <ImageView
+                android:id="@+id/imgLeftPropeller"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="25dp"
+                android:contentDescription="@string/nothing"
+                android:src="@drawable/img_propeller" />
+
+            <ImageView
+                android:id="@+id/imgRightPropeller"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="22dp"
+                android:contentDescription="@string/nothing"
+                android:src="@drawable/img_propeller" />
+        </RelativeLayout>
+        
+        <View 
+            android:id="@+id/centerView"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:contentDescription="@null" />
+
+            <Chronometer
+                android:id="@+id/timeCounter"
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="5dp"
+                android:format="%s"
+                android:layout_gravity="end"
+                android:gravity="center"
+                android:textSize="16sp" />
+
+            <com.airtops.carbon.plane.view.SpringProgressView
+                android:id="@+id/timePro"
+                android:layout_width="26dp"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:layout_gravity="end"
+                android:layout_marginStart="14dp"
+                android:background="@android:color/transparent"
+                android:rotation="180" />
+
+            <RelativeLayout 
+			    android:layout_width="wrap_content"
+			    android:layout_height="0dp"
+			    android:layout_weight="2">
+			    <FrameLayout 
+			       android:layout_alignParentStart="true"
+			        android:layout_marginTop="5dp"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:orientation="vertical" >
+			   	  <ImageView
+			   	    android:id="@+id/f_h_r"
+			   	    android:layout_marginEnd="4.5dp"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:src="@drawable/flyer_height_r"
+                	android:contentDescription="@null" />
+			   	  <ImageView
+			   	      android:layout_gravity="bottom|end"
+			   	      android:contentDescription="@null" 
+			   	      android:layout_marginBottom="-2dp"
+			   	      android:id="@+id/f_h_i_r"
+			   	      android:layout_width="10dp"
+			   	      android:layout_height="10dp"
+			   	      android:src="@drawable/flyer_height_icon"/>
+			   	  </FrameLayout>
+			</RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/powerArea"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" >
+
+        <ImageView
+            android:id="@+id/btn_power"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/nothing"
+            android:src="@drawable/power_icon" />
+
+        <ImageView
+            android:id="@+id/btn_photo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/btn_power"
+            android:contentDescription="@string/nothing"
+            android:src="@drawable/camera_icon" />
+
+        <ImageView
+            android:id="@+id/btn_video"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/btn_power"
+            android:contentDescription="@string/nothing"
+            android:src="@drawable/video_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginEnd="15dp" >
+
+        <ImageView
+            android:id="@+id/power_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="5dp"
+            android:contentDescription="@string/nothing"
+            android:src="@drawable/power_bg" />
+
+        <ImageView
+            android:id="@+id/power_heart1"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/nothing" />
+
+        <ImageView
+            android:id="@+id/power_heart"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignTop="@+id/power_heart1"
+            android:layout_marginStart="2dp"
+            android:layout_toEndOf="@+id/power_heart1"
+            android:contentDescription="@string/nothing" />
+
+        <ImageView
+            android:id="@+id/power_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/power_heart"
+            android:layout_alignEnd="@+id/power_heart"
+            android:layout_marginStart="1dp"
+            android:contentDescription="@string/nothing"
+            android:src="@drawable/indicator" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="60dp"
+        android:layout_marginStart="15dp" >
+
+        <ImageView
+            android:id="@+id/rssi_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:contentDescription="@null"
+            android:src="@drawable/ble_bg" />
+
+        <ImageView
+            android:id="@+id/rssi_heart1"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="@string/nothing" />
+
+        <ImageView
+            android:id="@+id/rssi_heart"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignTop="@+id/rssi_heart1"
+            android:layout_marginStart="2dp"
+            android:layout_toEndOf="@+id/rssi_heart1"
+            android:contentDescription="@string/nothing" />
+
+        <ImageView
+            android:id="@+id/rssi_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/rssi_heart"
+            android:layout_alignEnd="@+id/rssi_heart"
+            android:layout_marginStart="1dp"
+            android:contentDescription="@string/nothing"
+            android:src="@drawable/indicator" />
+    </RelativeLayout>
+
+</RelativeLayout>

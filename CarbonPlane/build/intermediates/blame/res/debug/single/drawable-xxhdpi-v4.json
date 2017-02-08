@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\carbon_back.jpg",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable-xxhdpi\\carbon_back.jpg"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\welcome.jpg",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable-xxhdpi\\welcome.jpg"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\search_ble_bg.jpg",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable-xxhdpi\\search_ble_bg.jpg"
+    }
+]

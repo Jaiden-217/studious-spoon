@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\video_icon.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\video_icon.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_circle_photo.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\btn_circle_photo.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\icon.png",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\icon.png"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_circle_power_pause.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\btn_circle_power_pause.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\power_icon.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\power_icon.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\seekbar.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_circle_power_run.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\btn_circle_power_run.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\no_pressed.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\no_pressed.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\signal.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\signal.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\ripple.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\ripple.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\tip_oval.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\tip_oval.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\direction_dot.png",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\direction_dot.png"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\gogogo_icon.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\gogogo_icon.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_background.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\seekbar_background.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\signal_invisible.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\signal_invisible.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\camera_icon.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\camera_icon.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_thumb.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\seekbar_thumb.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_rectangle.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\btn_rectangle.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\dot.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\dot.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_scanning.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\circle_scanning.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_background.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\circle_background.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\loading.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\loading.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_foreground.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\circle_foreground.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_invisiable.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\seekbar_invisiable.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_ring.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\circle_ring.xml"
+    },
+    {
+        "merged": "G:\\Airtops\\Application\\CarbonPlane\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_circle_video.xml",
+        "source": "G:\\Airtops\\Application\\CarbonPlane\\res\\drawable\\btn_circle_video.xml"
+    }
+]

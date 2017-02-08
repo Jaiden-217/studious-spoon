@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/titleTv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@android:color/holo_blue_bright"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"/>
+    
+    <TextView 
+		android:paddingLeft="20dp"
+		android:paddingRight="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/msgTv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:textSize="20sp"/>
+    
+    <TextView 
+        android:id="@+id/showTotal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@android:color/holo_red_light"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        />
+    
+    <Button 
+        android:id="@+id/okBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/yes"
+        android:textSize="18sp"
+        android:background="@android:color/holo_orange_light"/>
+	
+    
+</LinearLayout>

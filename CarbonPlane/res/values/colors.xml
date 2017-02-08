@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="acce_thumb">#E91E63</color>
+    <color name="accent">#FFEB3B</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="background">#929ba4</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="power">#4CAF50</color>
+    <color name="pause">#F44336</color>
+    <color name="white_background">#5affffff</color>
+    <color name="white_ring">#50ffffff</color>
+    <color name="white_00">#002196F3</color>
+    <color name="white_foreground">#1effffff</color>
+    <color name="signal">#ff000000</color>
+    <color name="signal_invisible">#7c757575</color>
+    <color name="orange">#fffe7b3f</color>
+    <color name="alpha">#00000000</color>
+    <color name="green">#1fbba6</color>
+    <color name="background_page1">#ffe41b</color>
+    <color name="background_page3">#f19ec2</color>
+    <color name="btn_page3">#21d8de</color>
+    <color name="background_splash">#70DCFF</color>
+    <color name="background_page2">#c64aff</color>
+    <color name="background_guide">#b39b9c96</color>
+</resources>
