@@ -1,4 +1,6 @@
 # studious-spoon
-ATTENTION : PLEASE READ THIS FILE FIRST
-a simple controller for carbon flyers, use BLE for connections. 
-all of the code and files are just for communication.
+ATTENTION : PLEASE READ THIS FILE FIRST.
+
+This is a simple controller for my own hand-make carbon flyer, use BLE for connections. 
+
+All of the code and files are just for communication.
